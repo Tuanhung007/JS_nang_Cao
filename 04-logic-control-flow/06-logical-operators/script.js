@@ -1,6 +1,7 @@
-console.log(10 < 20 && 30 > 15 && 40 > 30); 
-console.log(10 > 20 || 30 < 15); 
+console.log(10 < 20 && 30 > 15 && 40 > 30); // Must all be true
+console.log(10 > 20 || 30 < 15); // Only one has to be true
 
+// && - Will return first falsy value or the last value
 let a;
 
 a = 10 && 20;
